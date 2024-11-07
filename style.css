@@ -1,4 +1,8 @@
 @font-face {
+    font-family:"News" ;
+    src: url(/Font/Newsreader-Italic-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
     font-family:"Southland" ;
     src: url(/Font/Southland\ TTF.ttf);
 }
@@ -29,7 +33,7 @@ body{
 
     }
     .box{display: flex;
-        height:max-content;
+        height:fit-content;
         width: 350px;;
         gap: 1px;
         
@@ -40,22 +44,24 @@ body{
     }
     #titulo{
         
-        font-size:4rem ;
+        font-size:2rem ;
         text-align: center;
-        color: gold;
-        font-family: "Southland",cursive;
-        font-weight: 575;
-        width: auto;
+        color: rgba(255, 217, 0, 0.685);
+        font-family: "News";
+        font-weight: 300;
+        width:auto;
+        align-items: center;
 
         }
     #informacion{
         background-color: rgba(10, 11, 12, 0.199);
-        font-family: "Southland", cursive;
+        font-family: "News", cursive;
         text-align: center;
-        color: gold;
-        font-size: 2.5rem;
-        font-weight: 500;
+        color: rgba(192, 192, 192, 0.753);
+        font-size: 1.5rem;
+        font-weight: 350;
         margin: 0px;
+        width: auto;
       
     }
     #mapa{
@@ -69,7 +75,7 @@ body{
     }
     #ropa{
         
-        background-color: rgba(15, 11, 11, 0.158);
+        background-color: rgba(15, 11, 11, 0.233);
         padding: 0px;
         text-align: center;
         color: silver;
@@ -80,7 +86,7 @@ body{
         width: auto;
         font-weight: 580;
     }
-    #boton{
+    /* #boton{
         align-content: center;
         align-items: center;
         font-size: 2rem;
@@ -98,4 +104,32 @@ body{
 #boton:hover {
     background-color: #f44336;
     color: white;
+} */
+#arriba{
+    color: rgba(255, 217, 0, 0.589);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: auto;
+    font-family: "News";
+    font-size: 1rem;
+    font-weight: 350;
+}
+#gala{
+    background-color: rgba(27, 34, 34, 0.158);
+    font-size: 3rem;
+    font-family: "Southland", cursive;
+    color: silver;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    width: auto;
+    padding: 0;
+    height: 30px;
+}
+#direccion{
+    color: rgba(192, 192, 192, 0.637);
+    font-family: "News";
+    text-align: center;
+    font-size: 1.5rem;
 }
